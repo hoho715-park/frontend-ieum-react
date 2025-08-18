@@ -90,8 +90,8 @@ export default function Test() {
               </div>
             )}
 
-            {/* 결과 카드 */}
-            {allDone && (
+            {/* 결과 카드: 팝업이 열려 있을 땐 숨김 */}
+            {allDone && !doneOpen && (
               <div className="q-card" id="result">
                 <div className="result-title">
                   당신은 <span style={{ color: winnerColor, fontWeight: 900 }}>“{winner}”</span> 입니다.
