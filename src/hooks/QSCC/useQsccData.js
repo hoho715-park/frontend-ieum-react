@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { FALLBACK } from '../constants'
+import { FALLBACK } from '../../constants/QSCC/constants'
 
 export default function useQsccData() {
   const [data, setData] = useState(null)

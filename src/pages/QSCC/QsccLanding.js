@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Header from '../components/layouts/Header'
+import Header from '../../components/layouts/Header'
 
 export default function QsccLanding() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BINGO } from '../constants'
+import { BINGO } from '../../constants/QSCC/constants'
 
 export default function Bingo({ type }) {
   const raw = (BINGO[type] || []).slice(0, 25)

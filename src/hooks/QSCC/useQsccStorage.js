@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { STORAGE_KEY } from '../constants'
+import { STORAGE_KEY } from '../../constants/QSCC/constants'
 
 export default function useQsccStorage() {
   const [answers, setAnswers] = useState(() => {
