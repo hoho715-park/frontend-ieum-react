@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
+import QsccLanding from './pages/QSCC/QsccLanding'
+import WhatIsQscc from './pages/QSCC/about/WhatIsQscc'
+import Test from './pages/QSCC/test/Test'
 
-import QsccLanding from './pages/QsccLanding'
-import WhatIsQscc from './pages/WhatIsQscc'
-import Test from './pages/Test'
 
 export default function App() {
   return (
